@@ -5,7 +5,7 @@ function Containers({ name, language, link, image }) {
         <div className=" w-80 lg:w-[340px] rounded-xl lg:mx-80  bg-slate-800 py-2 px-2 ">
           <a href={link}>
             <img
-              className="border-2 rounded-md object-cover w-full h-60  border-slate-700   "
+              className="border-2 rounded-sm object-cover w-full h-60  border-slate-700   "
               src={image}
               alt="image"
             />
