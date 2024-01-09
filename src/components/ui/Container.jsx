@@ -2,7 +2,7 @@ function Containers({ name, language, link, image }) {
   return (
     <section className="space-y-2 mt-5 mb-2">
       <div className=" flex justify-center">
-        <div className=" w-72 lg:w-[340px] rounded-xl lg:mx-80  bg-slate-800 py-2 px-2 ">
+        <div className=" w-[320px] lg:w-[340px] rounded-xl lg:mx-80  bg-slate-800 py-2 px-2 ">
           <a href={link}>
             <img
               className="border-2 rounded-sm object-cover w-full h-60  border-slate-700   "
