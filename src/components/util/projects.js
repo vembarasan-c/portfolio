@@ -1,27 +1,19 @@
+import images from '../../../public/assets/images/project-1.jpg';
+
 const projects = [
   {
+    id: 'p1',
     projectName: 'Weather App',
-    link: '',
-    image: '',
-    technologiesUsed: 'Html, Css , Js,  React',
+    link: 'https://weather-forms.netlify.app/',
+    image: '/assets/images/project-1.jpg',
+    technologiesUsed: 'Html Css Js   React',
   },
   {
-    projectName: 'Shopping Cart APp',
-    link: '',
-    image: '',
-    technologiesUsed: 'Html | Css | Js | React | Redux ',
-  },
-  {
-    projectName: '',
-    link: '',
-    image: '',
-    technologiesUsed: 'Html | Css | Js | React | Redux ',
-  },
-  {
-    projectName: 'Management System',
-    link: '',
-    image: '',
-    technologiesUsed: 'Java',
+    id: 'p2',
+    projectName: 'T-SHIRTS store',
+    link: 'https://tshirts-store-app.netlify.app/',
+    image: '/assets/images/project-3.jpg',
+    technologiesUsed: ' React / Redux ',
   },
 ];
 

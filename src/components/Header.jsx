@@ -9,18 +9,18 @@ function Header() {
     <header id="about" className="   scroll-m-10">
       <Title title="About" />
       <div className=" my-6 justify-center sm:flex text-slate-400 ">
-        <div className=" flex sm:mx-10 space-x-2 justify-between sm:gap-x-20 sm:justify-evenly w-4/6 ">
+        <div className=" flex mx-3 sm:mx-10 space-x-2 justify-between sm:gap-x-20 sm:justify-evenly w-4/6 ">
           <div className="space-y-3 px-3 text-sm sm:p-5  md:text-md lg:text-lg ">
             <h1 className=" lg:text-2xl text-teal-400 ">Hi I'm Vembarasan</h1>
             <h1> Building scalable and robust web applications </h1>
             <p>
-              I'm good at problem solving <br />
+              I'm good at problem solving and communication <br />
               Self-taught developer
             </p>
           </div>
-          <div className=" sm:flex  justify-center align-middle  md:-mt-3 lg:-mt-5 ">
+          <div className=" sm:flex  justify-center align-middle  md:-mt-3 lg:mt-6 ">
             <img
-              className=" position: absolute w-24 h-24 object-cover md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-[50%]  border-teal-700   border-[3.8px]  "
+              className=" position: absolute w-24 h-24 object-cover md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-[50%]  border-cyan-700   border-[2px]  "
               src={profileImage}
               alt="Profile image"
             />

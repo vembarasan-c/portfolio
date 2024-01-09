@@ -1,18 +1,18 @@
 function Containers({ name, language, link, image }) {
   return (
-    <section className="space-y-10 mt-5">
+    <section className="space-y-2 mt-5 mb-2">
       <div className=" flex justify-center">
-        <div className=" w-80 lg:w-[400px] rounded-xl lg:mx-80  bg-slate-800  py-4 ">
+        <div className=" w-80 lg:w-[340px] rounded-xl lg:mx-80  bg-slate-800 py-2 px-2 ">
           <a href={link}>
             <img
-              className="border-b-4  border-slate-700  h-72  "
+              className="border-2 rounded-lg object-cover w-full h-60  border-slate-700   "
               src={image}
-              alt=""
+              alt="image"
             />
           </a>
-          <div className="text-center text-lg space-y-1 lg:text-xl mt-4 ">
+          <div className=" text-slate-200 text-center text-lg space-y-2 mt-2 ">
             <p>{name}</p>
-            <p> {language}</p>
+            <p className="text-sm">{language}</p>
           </div>
         </div>
       </div>

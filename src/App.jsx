@@ -1,4 +1,3 @@
-import './App.css';
 import Header from './components/Header';
 import Skills from './components/Skills';
 
@@ -17,7 +16,7 @@ function App() {
         <Header />
         <Skills />
         <Project />
-        <Profile />
+        {/* <Profile /> */}
         <Footer />
       </main>
     </>
