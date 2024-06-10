@@ -23,8 +23,8 @@ const icons = [
   { id: 'L8', name: 'java', icon: javaicon },
   { id: 'L9', name: 'spring', icon: spring },
   { id: 'L10', name: 'mysql', icon: mysqlicon },
-  { id: 'L12', name: 'graphQl', icon: graphqlicon },
-  { id: 'L11', name: 'docker', icon: docker },
+  // { id: 'L12', name: 'graphQl', icon: graphqlicon },
+  // { id: 'L11', name: 'docker', icon: docker },
 ];
 
 export default icons;
