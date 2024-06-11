@@ -2,7 +2,7 @@ import Title from './ui/Title.jsx';
 
 import { motion } from 'framer-motion';
 
-import profileImage from './util/image/profile.jpg';
+import profileImage from './util/image/profile.png';
 
 function Header() {
   return (
