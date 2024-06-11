@@ -34,12 +34,12 @@ function Header() {
           transition={{ type: 'spring', duration: 0.8 }}
           initial={{ scale: 1 }}
           whileTap={{ scale: [0.8, 1] }}
-          className=" mr-12 px-14   py-[8px] lg:text-2xl text-lg  rounded-lg 
-        bg-gradient-to-r from-cyan-800 from-50% via-steal-500 via-90% to-emerald-800 to-100%" > 
+          className=" mr-12 px-14   py-[8px] lg:text-2xl text-lg  rounded-lg bg-gradient-to-r from-cyan-800 from-50% via-steal-500 via-90% to-emerald-800 to-100%" > 
           Resume
         </motion.button>
           </a>
       </div>
+      
     </header>
   );
 }
