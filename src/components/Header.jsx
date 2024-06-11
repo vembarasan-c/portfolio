@@ -35,8 +35,7 @@ function Header() {
           whileTap={{ scale: [0.8, 1] }}
           className=" mr-12 px-14   py-[8px] lg:text-2xl text-lg  rounded-lg 
         bg-gradient-to-r from-cyan-800 from-50% via-steal-500 via-90% to-emerald-800 to-100%"
-        >
-          Resume
+        > <a href="https://drive.google.com/file/d/1eJOCWik76Hd4R5ESvdVcjwc9Lrb8q8ga/view?usp=sharing"> Resume </a>
         </motion.button>
       </div>
     </header>
