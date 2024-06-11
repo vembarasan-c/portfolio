@@ -18,7 +18,7 @@ function Header() {
           </div>
           <div className=" sm:flex  justify-center align-middle  md:-mt-3 lg:mt-6 ">
             <img
-              className=" position: absolute w-24 h-24 object-cover md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-[50%]  border-cyan-700   border-[2px]  "
+              className=" position: absolute w-24 h-24 object-cover md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-[50%]  border-blue-800   border-[1px]  "
               src={profileImage}
               alt="Profile image"
             />
