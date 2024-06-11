@@ -15,10 +15,11 @@ function Header() {
             <h1 className=" lg:text-2xl text-xl text-teal-400 ">Self-taught Full Stack Developer</h1>
             <p>I am a dedicated Full Stack Developer with a passion for creating robust and scalable web applications.  </p>
             <p> I am committed to continuous learning and delivering high-quality software solutions that meet user needs</p>
+            <p> </p>
           </div>
           <div className=" sm:flex  justify-center align-middle  md:-mt-3 lg:mt-6 ">
             <img
-              className=" position: absolute w-28 h-28 object-cover md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-[50%]  border-gray-800   border-[2px]  "
+              className=" position:absolute w-28 h-28 object-cover md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-[50%]  border-cyan-800   border-[2px]  "
               src={profileImage}
               alt="Profile image"
             />
