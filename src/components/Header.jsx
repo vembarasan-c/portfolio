@@ -12,11 +12,9 @@ function Header() {
         <div className=" flex mx-3 sm:mx-10 space-x-2 justify-between sm:gap-x-20 sm:justify-evenly w-4/6 ">
           <div className="space-y-3 px-3 text-sm sm:p-5  md:text-md lg:text-lg ">
             <h1 className=" lg:text-2xl text-teal-400 ">Hi I'm Vembarasan</h1>
+            <h1 className=" lg:text-2xl text-teal-400 ">Self taught full stack developer</h1>
             <h1> Building scalable and robust web applications </h1>
-            <p>
-              I'm good at problem solving and communication <br />
-              Self-taught developer
-            </p>
+            
           </div>
           <div className=" sm:flex  justify-center align-middle  md:-mt-3 lg:mt-6 ">
             <img
