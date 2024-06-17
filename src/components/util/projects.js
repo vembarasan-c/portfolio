@@ -25,7 +25,7 @@ const projects = [
     id: 'p4',
     projectName: 'Social media app',
     link: 'https://github.com/vembarasan-c/social-media-app',
-    image: '/assets/images/media-1.jpg',
+    image: '/assets/images/media.jpg',
     technologiesUsed: 'React / Spring boot / Mysql',
   },{
     id: 'p5',
