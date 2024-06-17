@@ -18,13 +18,13 @@ const projects = [
   {
     id: 'p3',
     projectName: 'Movie Ticket Booking System',
-    link: 'https://github.com/vembarasan-c/movie-ticket-booking-backend',
+    link: 'https://github.com/vembarasan-c/Movie-ticket-booking-system',
     image: '/assets/images/movie.jpg',
     technologiesUsed: 'React / Spring boot / Mysql ',
   },{
     id: 'p4',
     projectName: 'Social media app',
-    link: 'https://github.com/vembarasan-c/social-media-app-backend',
+    link: 'https://github.com/vembarasan-c/social-media-app',
     image: '/assets/images/media-1.jpg',
     technologiesUsed: 'React / Spring boot / Mysql',
   },{
