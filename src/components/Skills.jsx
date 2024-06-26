@@ -1,6 +1,8 @@
 import Title from './ui/Title.jsx';
 import icons from './util/icon.js';
 
+import image from "../assets/media.jpg"
+
 import { motion, useTransform, useScroll } from 'framer-motion';
 
 function Skills() {
@@ -20,7 +22,7 @@ function Skills() {
         className="flex justify-center "
         style={{ y: landing, opacity: scrollProject }}
       >
-        <div className="grid gap-10 my-4 align-middle justify-center grid-cols-3  grid-rows-3  ">
+        <div className="grid gap-10 my-4 align-middle justify-center grid-cols-3 lg:grid-cols-4  grid-rows-3  ">
           {icons.map((icon) => (
             <motion.p
               transition={{ type: 'spring', ease: 'easeIn', duration: 0.8 }}
@@ -40,7 +42,13 @@ function Skills() {
             </motion.p>
           ))}
         </div>
+
+
+
+
       </motion.section>
+
+
     </>
   );
 }

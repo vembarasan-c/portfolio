@@ -8,18 +8,18 @@ function Header() {
   return (
     <header id="about" className="   scroll-m-10">
       <Title title="About" />
-      <div className=" my-6 justify-center sm:flex text-slate-400 ">
+      <div className=" my-6 justify-center sm:flex text-slate-400 mr-1">
         <div className=" flex mx-3 sm:mx-10 space-x-2 justify-between sm:gap-x-20 sm:justify-evenly w-4/6 ">
           <div className="space-y-3 px-3 text-sm sm:p-5  md:text-md lg:text-lg ">
-            <h1 className=" lg:text-2xl text-xl text-teal-400 ">Hi I'm Vembarasan</h1>
+            <h1 className=" lg:text-2xl text-xl  text-teal-400 ">Hi I'm Vembarasan</h1>
             <h1 className=" lg:text-2xl text-xl text-teal-400 ">Self-taught Full Stack Developer</h1>
             <p>I am a dedicated Full Stack Developer with a passion for creating robust and scalable web applications.  </p>
-            <p> I am committed to continuous learning and delivering high-quality software solutions that meet user needs</p>
-            <p> </p>
+            <p>I am committed to continuous learning and delivering high-quality software solutions that meet user needs</p>
+            <p>I am enthusiastic about working on new projects and bring a comprehensive skill set to each one.</p>
           </div>
-          <div className=" sm:flex  justify-center align-middle  md:-mt-3 lg:mt-6 ">
-            <img
-              className=" position: absolute w-28 h-28 object-cover md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-[50%]  border-cyan-800   border-[2px]  "
+          <div className="sm:flex justify-center align-middle  md:mt-3 lg:mt-6  ">
+            <img 
+              className="  mb-3  rounded-full  absolute  w-28 h-28  object-cover md:w-32 md:h-32 lg:w-40 lg:h-40   border-cyan-700 shadow-sm  shadow-cyan-600   border-[1px]  "
               src={profileImage}
               alt="Profile image"
             />
@@ -27,13 +27,13 @@ function Header() {
         </div>
       </div>
 
-      <div className="flex justify-center">
-         <a href="https://drive.google.com/file/d/1eJOCWik76Hd4R5ESvdVcjwc9Lrb8q8ga/view?usp=sharing">
+      <div className="flex   justify-center  ">
+        <a href="https://drive.google.com/file/d/1eJOCWik76Hd4R5ESvdVcjwc9Lrb8q8ga/view?usp=sharing" className=' '>
         <motion.button
           transition={{ type: 'spring', duration: 0.8 }}
           initial={{ scale: 1 }}
           whileTap={{ scale: [0.8, 1] }}
-          className=" mr-12 px-14   py-[8px] lg:text-2xl text-lg  rounded-lg bg-gradient-to-r from-cyan-800 from-50% via-steal-500 via-90% to-emerald-800 to-100%" > 
+          className=" text-white bg-gradient-to-r shadow-md shadow-cyan-900 from-teal-600 via-teal-700 to-teal-800 hover:bg-gradient-to-br    rounded-lg   text-center     hover:bg-gradient-to-rs px-14   py-[8px] lg:text-2xl text-lg " >
           Resume
         </motion.button>
           </a>
