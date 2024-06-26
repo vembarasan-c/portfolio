@@ -6,8 +6,8 @@ const projects = [
     projectName: 'Weather App',
     link: 'https://weather-forms.netlify.app/',
     image: '/assets/images/project-1.jpg',
-    technologiesUsed: 'It was built using React, TailwindCSS and OpenWeatherMap API',
-    description: "A Weather app that allows you to check the weather in your city.",
+    technologiesUsed: 'It was built using React, TailwindCSS and OpenWeatherMap API.',
+    description: "A Weather app that allows you to check the weather information in your city.",
   },
   {
     id: 'p2',
@@ -23,7 +23,7 @@ const projects = [
     link: 'https://github.com/vembarasan-c/Movie-ticket-booking-system',
     image: '/assets/images/mov-3.jpg',
     technologiesUsed: 'It was built using Java, Springboot, React and MySQL ',
-    description:"Developed a robust and user-friendly Movie Ticket Booking System application allows users selecting the movie and booking movie tickets online.",
+    description:"Developed a robust and user-friendly Movie Ticket Booking System. This application allows users selecting the movie and booking movie tickets.",
 
   },{
     id: 'p4',
